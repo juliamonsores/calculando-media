@@ -1,0 +1,30 @@
+using System;
+
+
+namespace ConsoleApp3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int idadebernardo = 17;
+            int idadejulia = 17;
+            
+
+
+
+            int media = (Convert.ToInt32(idadebernardo) + Convert.ToInt32(idadejulia)) / 2;
+
+            Console.WriteLine("A idade média é: " + media.ToString());
+
+
+
+
+        }
+    }
+}
+
+
+
+
+
